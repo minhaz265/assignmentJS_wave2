@@ -1,7 +1,7 @@
 
 // https://github.com/minhaz265/assignmentJS_wave2
-function kilometerToMeter(num){
 
+function kilometerToMeter(num){
     if(num < 0){
         return "invalid input"
     }
@@ -10,14 +10,12 @@ function kilometerToMeter(num){
 // var result = kilometerToMeter(1.5);
 // console.log(result);
 
-function budgetCalculator(a,b,c){
-
-    var total = a*50 + b*100 + c*500;
+function budgetCalculator(watch, mobile, laptop){
+    var total = watch*50 + mobile*100 + laptop*500;
     return total;
 }
 // var result2 = budgetCalculator(1,1,1);
 // console.log(result2);
-
 function hotelCost(numberOfDays){
     var rent = 0;
     if(numberOfDays > 20){
@@ -38,9 +36,7 @@ function hotelCost(numberOfDays){
 }
 // var result3 = hotelCost(9);
 // console.log(result3);
-
 function megaFriend(inputArray){
-
     var max = inputArray[0];
     for (let i = 0; i < inputArray.length; i++) {
         const element = inputArray[i];
@@ -48,10 +44,8 @@ function megaFriend(inputArray){
             max = inputArray[i]
         }
     }
-
  return max;
 }
-
 // var result4 = megaFriend(["ami","tumi", "minhaz"]);
 // console.log(result4);
 
